@@ -1,0 +1,41 @@
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    background: #333;
+    color: white;
+}
+
+
+nav ul .submenu{
+    position: absolute;
+    top:100%;
+    left: 0;
+    display: none;
+    background: #444;
+    padding: 0;
+}
+
+nav ul .dropdown li {
+    width: 150px;
+}
+
+nav ul .dropdown li a {
+    padding: 10px;
+    display: block;
+}
+
+nav ul li:hover .dropdown {
+    display: block;
+}
