@@ -1,3 +1,7 @@
+header{
+    background-color: #333;
+    padding-top: 1px;
+}
 nav ul {
     list-style: none;
     padding: 0;
@@ -27,15 +31,15 @@ nav ul .submenu{
     padding: 0;
 }
 
-nav ul .dropdown li {
+nav ul .submenu li {
     width: 150px;
 }
 
-nav ul .dropdown li a {
+nav ul .submenu li a {
     padding: 10px;
     display: block;
 }
 
-nav ul li:hover .dropdown {
+nav ul li:hover .submenu {
     display: block;
 }
