@@ -273,8 +273,8 @@ main {
 }
 
 .training-img {
-    width: 15rem;
-    height: 15rem;
+    width: 35rem;
+    height: 35rem;
     object-fit: contain;
     margin-bottom: 10px;
     display: block;
