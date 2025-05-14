@@ -301,5 +301,6 @@ main {
     text-align: center; /* Centraliza o texto horizontalmente */
     margin: 0 auto; /* Centraliza o bloco horizontalmente */
     max-width: 800px; /* Define uma largura máxima para o conteúdo */
+    font-size: 1.5rem;
 }
 
