@@ -254,6 +254,22 @@ main {
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    align-items: center; /* Centraliza os elementos horizontalmente */
+    justify-content: center; /* Centraliza os elementos verticalmente */
+}
+
+.training-item i {
+    font-size: 15rem;
+    color: #007bff; 
+    margin-bottom: 10px;
+}
+
+.training-item p {
+    font-size: 1.5rem; /* Ajusta o tamanho do texto */
+    color: #333; /* Cor do texto */
+    margin: 5px 0; /* Espaçamento entre os parágrafos */
 }
 
 .nav-arrow {
@@ -279,5 +295,11 @@ main {
 
 .nav-arrow:hover {
     background-color: #0056b3;
+}
+
+.training-description {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin: 0 auto; /* Centraliza o bloco horizontalmente */
+    max-width: 800px; /* Define uma largura máxima para o conteúdo */
 }
 
