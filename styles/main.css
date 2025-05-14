@@ -297,10 +297,19 @@ main {
     background-color: #0056b3;
 }
 
-.training-description {
+.training-description{
     text-align: center; /* Centraliza o texto horizontalmente */
     margin: 0 auto; /* Centraliza o bloco horizontalmente */
     max-width: 800px; /* Define uma largura máxima para o conteúdo */
-    font-size: 1.5rem;
 }
 
+.training-description h2 {
+    font-size: 2rem; /* Tamanho do título */
+    color: #333; /* Cor do título */
+}
+
+.training-description p {
+    font-size: 1.5rem;
+    color: #666;
+    margin-top: 10px;
+}
