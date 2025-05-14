@@ -182,3 +182,27 @@ main {
     transform: scale(1.2); /* Aumenta o botão ao passar o mouse */
 }
 
+.nav-projects {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.project-item {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.project-item i {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    margin: 0;
+    font-size: 1rem;
+}
+
