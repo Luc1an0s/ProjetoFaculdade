@@ -191,24 +191,34 @@ main {
 
 .project-item {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 15rem;
     color: #333;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
 .project-item i {
-    font-size: 2rem;
+    font-size: 15rem;
     color: #007bff;
     margin-bottom: 10px;
 }
 
 .project-item p {
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
+}
+
+.project-item:hover {
+    transform: scale(1.1);
+    background-color: #f0f0f0;
 }
 
 .projects-description {
     text-align: center;
-    margin-bottom: 20px;
+    margin: 50px 0 0 20px;
 }
 
 .projects-description h2 {
@@ -217,7 +227,7 @@ main {
 }
 
 .projects-description p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #666;
     margin-top: 10px;
 }
