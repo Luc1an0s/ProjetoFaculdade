@@ -50,10 +50,30 @@
         </div>
     </main>
     <section id="training">
+        <div class="training-description">
+            <h2>Minha Formação</h2>
+            <p>Sou estudante de Análise e Desenvolvimento de Sistemas na Faculdade na Martha Falcão e Engenharia de Controle e Automação no Instituto Federal do Amazonas </p>
+        </div>
         <div class="nav-training">
-            <div class="training-item"></div>
-            <div class="training-item"></div>
-            <div class="training-item"></div>
+            <button class="nav-arrow left-arrow" onclick="navigateTraining(-1)">&#10094;</button>
+            <div class="training-carousel">
+                <div class="training-item">
+                    <i class="bi bi-code-slash"></i>
+                    <p>Análise e Desenvolvimento de Sistemas</p>
+                    <p>Martha Falcão</p>
+                </div>
+                <div class="training-item">
+                    <i class="bi bi-code-slash"></i>
+                    <p>Engenharia de Controle e Automação</p>
+                    <p>IFAM</p>
+                </div>
+                <div class="training-item">
+                    <i class="bi bi-code-slash"></i>
+                    <p>Licenciatura em Matemática</p>
+                    <p>IFAM - Incompleto</p>
+                </div>
+            </div>
+            <button class="nav-arrow right-arrow" onclick="navigateTraining(1)">&#10095;</button>
         </div>
     </section>
     
