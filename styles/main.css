@@ -5,7 +5,7 @@
     justify-content: space-between; /* Espaço entre a logo e o menu */
     padding: 10px 20px;
     background-color: #f8f9fa; /* Cor de fundo neutra */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve para destacar o header */
+    box-shadow: 0 2px 4px rgba(216, 140, 52, .2); /* Sombra leve para destacar o header */
 }
 
 /* Estilo para a logo */
@@ -37,7 +37,8 @@
 }
 
 .headerLuciano .menu a:hover {
-    color: #007bff; /* Cor de destaque ao passar o cursor */
+    color: #d88c34; /* Cor de destaque ao passar o cursor */
+    transform: scale(1.1); /* Aumenta o tamanho ao passar o cursor */
 }
 
 /* Estilo para o submenu */
@@ -50,7 +51,7 @@
     padding: 0;
     list-style: none;
     z-index: 10; /* Garante que o submenu fique acima de outros elementos */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .1); /* Sombra para destacar o submenu */
+    box-shadow: 0 2px 4px rgba(216, 140, 52, .2); /* Sombra para destacar o submenu */
 }
 
 .submenu li {
