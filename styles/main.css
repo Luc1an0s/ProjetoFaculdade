@@ -272,6 +272,14 @@ main {
     margin: 5px 0; /* Espaçamento entre os parágrafos */
 }
 
+.training-img {
+    width: 15rem;
+    height: 15rem;
+    object-fit: contain;
+    margin-bottom: 10px;
+    display: block;
+}
+
 .nav-arrow {
     background-color: #d88c34;
     color: white;
