@@ -262,7 +262,7 @@ main {
 
 .training-item i {
     font-size: 15rem;
-    color: #007bff; 
+    color: #d88c34; 
     margin-bottom: 10px;
 }
 
@@ -273,7 +273,7 @@ main {
 }
 
 .nav-arrow {
-    background-color: #007bff;
+    background-color: #d88c34;
     color: white;
     border: none;
     cursor: pointer;
