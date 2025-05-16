@@ -1,62 +1,87 @@
-body{
-    background: linear-gradient(45deg, #ff9500, #ffb700);
+:root {
+    --primary-color: #ff9500;
+    --secondary-color: #ffb700;
+    --text-color: #fff;
+    --container-bg: rgba(255, 255, 255, 0.1);
+    --border-radius: 8px;
+    --transition-speed: 0.3s;
+}
+
+body {
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-.container{
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
+.container {
+    background-color: var(--container-bg);
+    border-radius: var(--border-radius);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     max-width: 1200px;
     margin: 2rem auto;
-    padding: 1rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    backdrop-filter: blur(5px);
 }
 
-.content-main{
-    /* Personalize conforme sua necessidade */
+.content-main {
     width: 100%;
     text-align: center;
+    animation: fadeIn 1s ease;
 }
 
-.photo-container{
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.photo-container {
     display: flex;
-    flex-direction: row; /* fotos lado a lado */
+    flex-direction: row;
     justify-content: center;
     gap: 1rem;
+    animation: fadeInPhotos 1s ease;
+}
+
+@keyframes fadeInPhotos {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
 main h1 {
-    color: #fff;
-    font-size: 2rem;
+    color: var(--text-color);
+    font-size: 2.5rem;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
     margin-bottom: 1rem;
 }
 
-main p{
-    color: #fff;
-    font-size: 1.1rem;
+main p {
+    color: var(--text-color);
+    font-size: 1.2rem;
     line-height: 1.6;
 }
 
-/* Estilização das fotos */
-.fotoLuciano, .fotoLeticia, .fotoKelly{
+.fotoLuciano, .fotoLeticia, .fotoKelly {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 5px solid #fff;
-    background-color: #ccc; /* placeholder para visualização */
-    transition: transform 0.3s ease;
+    border: 5px solid var(--text-color);
+    background-color: #ccc;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform var(--transition-speed) ease;
+    cursor: pointer;
 }
 
-.fotoLuciano:hover, .fotoLeticia:hover, .fotoKelly:hover{
+.fotoLuciano:hover, .fotoLeticia:hover, .fotoKelly:hover {
     transform: scale(1.1);
 }
 
-.fotoLuciano:active, .fotoLeticia:active, .fotoKelly:active{
+.fotoLuciano:active, .fotoLeticia:active, .fotoKelly:active {
     transform: scale(0.9);
 }
