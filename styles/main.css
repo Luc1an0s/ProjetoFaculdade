@@ -1,3 +1,62 @@
 body{
-    background-color: #ff9500;
+    background: linear-gradient(45deg, #ff9500, #ffb700);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.content-main{
+    /* Personalize conforme sua necessidade */
+    width: 100%;
+    text-align: center;
+}
+
+.photo-container{
+    display: flex;
+    flex-direction: row; /* fotos lado a lado */
+    justify-content: center;
+    gap: 1rem;
+}
+
+main h1 {
+    color: #fff;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+}
+
+main p{
+    color: #fff;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Estilização das fotos */
+.fotoLuciano, .fotoLeticia, .fotoKelly{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    background-color: #ccc; /* placeholder para visualização */
+    transition: transform 0.3s ease;
+}
+
+.fotoLuciano:hover, .fotoLeticia:hover, .fotoKelly:hover{
+    transform: scale(1.1);
+}
+
+.fotoLuciano:active, .fotoLeticia:active, .fotoKelly:active{
+    transform: scale(0.9);
 }
