@@ -10,7 +10,7 @@
 
 /* Estilo para a logo */
 .headerLuciano .logo {
-    max-height: 80px; /* Tamanho menor para a logo */
+    max-height: 110px; /* Tamanho maior para a logo */
     width: auto;
 }
 
