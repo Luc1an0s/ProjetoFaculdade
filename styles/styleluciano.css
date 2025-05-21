@@ -95,8 +95,8 @@ main {
     justify-content: center; /* Centraliza os elementos horizontalmente */
     align-items: center; /* Alinha os elementos verticalmente */
     gap: 40px; /* Adiciona um espaço uniforme entre os elementos */
-    padding: 20px;
-    padding-top: 150px; /* ajuste conforme a altura do header */
+    padding: 200px;
+    padding-top: 200px; /* ajuste conforme a altura do header */
     box-shadow: 0 2px 4px rgba(98, 122, 93, 0.3); /* sombra atualizada */
     position: relative;
 }
