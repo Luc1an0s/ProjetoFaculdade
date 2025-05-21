@@ -109,8 +109,17 @@
 
     <!-- Início Footer -->
     <footer>
-        <p>&copy; 2025 Luciano. Todos os direitos reservados.</p>
+        <div class="footer-social">
+            <a href="https://github.com/Luc1an0s" target="_blank"><i class="bi bi-github"></i></a>
+            <a href="https://linkedin.com/in/luciano-sena-maciel-525960199/" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.instagram.com/luc1an0s.jpg" target="_blank"><i class="bi bi-instagram"></i></a>
+        </div>
+        <p>Contato: <a href="mailto:lucianomaciel53@gmail.com">lucianomaciel53@gmail.com</a></p>
+        <p>&copy; <span id="ano"></span> Luciano. Todos os direitos reservados.</p>
     </footer>
+    <script>
+        document.getElementById('ano').textContent = new Date().getFullYear();
+    </script>
     <!-- Fim Footer -->
 
     <script src="./scripts/main.js"></script>
