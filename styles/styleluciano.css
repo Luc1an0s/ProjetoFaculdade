@@ -11,6 +11,7 @@
     padding: 10px 20px;
     background-color: #f8f9fa; /* Cor de fundo neutra */
     box-shadow: 0 2px 4px rgba(98, 122, 93, 0.3); /* sombra atualizada */
+    box-sizing: border-box; /* Adicione esta linha */
 }
 
 /* Estilo para a logo */
