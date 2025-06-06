@@ -40,15 +40,19 @@ nav ul li a {
 
 .main-content {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    padding: 200px 0 0 300px;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 200px; /* aumente aqui para afastar do topo */
+    padding: 0 0 0 100px;
     color: #fff;
+    position: relative;
 }
 
 .content-main {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 150px;
 }
 
 .foto {
@@ -56,7 +60,6 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 200px;
 }
 
 .foto img {
@@ -64,4 +67,28 @@ nav ul li a {
     height: auto;
     max-width: 100%;
     display: block;
+}
+
+.botao-resumo {
+    background: linear-gradient(90deg, #e4e4e4 0%, #4a70aa 100%);
+    color: black;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 32px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    box-shadow: 0 4px 16px rgba(74, 112, 170, 0.2);
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.botao-resumo:hover {
+    background: linear-gradient(90deg, #4a70aa 0%, #6a9cf7 100%);
+    transform: scale(1.05);
+}
+
+.button {
+    margin-top: 20px;
+    margin-left: 0;
+    align-self: flex-start;
 }
