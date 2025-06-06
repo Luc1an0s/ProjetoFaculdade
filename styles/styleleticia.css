@@ -36,6 +36,11 @@ nav ul {
 nav ul li a {
     text-decoration: none;
     color: #fff;
+    text-transform: ;
+}
+
+nav ul li a:hover {
+    color: #e4e4e4;
 }
 
 .main-content {
@@ -56,7 +61,7 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    /* padding-top: 150px;  Remova ou ajuste se necessário */
+    margin-top: 200px; /* Adiciona espaço acima do texto */
 }
 
 .foto {
