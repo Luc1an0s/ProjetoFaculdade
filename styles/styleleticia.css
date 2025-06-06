@@ -42,7 +42,7 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px; /* Espaço entre os elementos */
+    gap: 20px; /* Espaço entre os elementos, agora menor */
     margin-top: 40px;
     padding: 200px 0 0 100px;
 }
