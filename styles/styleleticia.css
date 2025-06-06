@@ -18,6 +18,7 @@ header {
     left: 20px;
     top: 50%;
     transform: translateY(-50%);
+    color: #fff;
 }
 
 nav {
@@ -30,6 +31,11 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .main-content {
