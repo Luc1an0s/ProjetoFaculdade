@@ -1,0 +1,104 @@
+body{
+    background-color: #4a70aa;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.nome {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+nav {
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: .2s ;
+}
+
+nav ul li a:hover {
+    color: #e4e4e4;
+    text-decoration: underline;
+}
+
+.main-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px; /* aumente o valor para mais separação */
+    margin-top: 160px;
+    padding: 0 40px;
+    color: #fff;
+    position: relative;
+    justify-content: center;
+    max-width: 1100px; /* limite de largura para centralizar */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 200px; /* Adiciona espaço acima do texto */
+}
+
+.foto {
+    /* flex: 1;  Remova esta linha */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto img {
+    width: 600px;   /* ajuste o valor conforme desejar */
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.botao-resumo {
+    background: linear-gradient(90deg, #e4e4e4 0%, #4a70aa 100%);
+    color: black;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 32px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    box-shadow: 0 4px 16px rgba(74, 112, 170, 0.2);
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.botao-resumo:hover {
+    background: linear-gradient(90deg, #4a70aa 0%, #6a9cf7 100%);
+    transform: scale(1.05);
+}
+
+.button {
+    margin-top: 20px;
+    margin-left: 0;
+    align-self: flex-start;
+}
