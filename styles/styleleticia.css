@@ -1,5 +1,5 @@
 body{
-    background-color: #fbf8cc;
+    background-color: #4a70aa;
 }
 
 header {
@@ -50,4 +50,11 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.foto img {
+    width: 600px;   /* ajuste o valor conforme desejar */
+    height: auto;
+    max-width: 100%;
+    display: block;
 }
