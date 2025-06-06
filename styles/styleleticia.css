@@ -36,11 +36,12 @@ nav ul {
 nav ul li a {
     text-decoration: none;
     color: #fff;
-    text-transform: ;
+    text-transform: .2s ;
 }
 
 nav ul li a:hover {
     color: #e4e4e4;
+    text-decoration: underline;
 }
 
 .main-content {
