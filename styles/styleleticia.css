@@ -3,21 +3,25 @@ body{
 }
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 20px;
+    height: 80px;
 }
 
 .nome {
-    flex: 1;
-    text-align: left;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 nav {
-    flex: 2;
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
 }
 
 nav ul {
@@ -34,6 +38,7 @@ nav ul {
     align-items: center;
     gap: 40px; /* Espaço entre os elementos */
     margin-top: 40px;
+    padding: 200px 0 0 100px;
 }
 
 .content-main {
