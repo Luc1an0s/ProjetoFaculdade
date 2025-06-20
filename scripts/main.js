@@ -19,7 +19,8 @@ setInterval(jump, 160);
 
 let currentIndex = 0;
 
-function navigateTraining(direction) {
+ateX(${offset}%)`;
+}function navigateTraining(direction) {
     const carousel = document.querySelector('.training-carousel');
     const items = document.querySelectorAll('.training-item');
     const totalItems = items.length;
@@ -36,5 +37,4 @@ function navigateTraining(direction) {
 
     
     const offset = -currentIndex * 100;
-    carousel.style.transform = `translateX(${offset}%)`;
-}
+    carousel.style.transform = `transl
