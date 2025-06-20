@@ -1,4 +1,3 @@
-/* Estilo para o header fixo */
 .headerLuciano {
     position: fixed;
     top: 0;
@@ -7,20 +6,20 @@
     z-index: 1000;
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Espaço entre a logo e o menu */
+    justify-content: space-between; 
     padding: 10px 20px;
-    background-color: #f8f9fa; /* Cor de fundo neutra */
-    box-shadow: 0 2px 4px rgba(98, 122, 93, 0.3); /* sombra atualizada */
-    box-sizing: border-box; /* Adicione esta linha */
+    background-color: #f8f9fa; 
+    box-shadow: 0 2px 4px rgba(98, 122, 93, 0.3);
+    box-sizing: border-box; 
 }
 
-/* Estilo para a logo */
+
 .headerLuciano .logo {
-    max-height: 90px; /* Tamanho maior para a logo */
+    max-height: 90px; 
     width: auto;
 }
 
-/* Estilo para o menu */
+
 .headerLuciano .menu {
     list-style: none;
     display: flex;
@@ -30,24 +29,24 @@
 }
 
 .headerLuciano .menu li {
-    margin-left: 15px; /* Espaçamento reduzido entre os itens */
-    position: relative; /* Necessário caso mantenha outros elementos */
+    margin-left: 15px; 
+    position: relative;
 }
 
 .headerLuciano .menu a {
     text-decoration: none;
-    color: #333; /* Cor de texto mais neutra */
-    padding: 8px 12px; /* Reduz o padding para um design mais compacto */
-    font-size: 20px; /* Tamanho de fonte menor */
+    color: #333; 
+    padding: 8px 12px;
+    font-size: 20px; 
     transition: color 0.2s ease;
 }
 
 .headerLuciano .menu a:hover {
-    color: #627a5d; /* Cor de destaque ao passar o cursor */
-    transform: scale(1.1); /* Aumenta o tamanho ao passar o cursor */
+    color: #627a5d; 
+    transform: scale(1.1); 
 }
 
-/* Estilos para navegação principal */
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -67,9 +66,9 @@ nav ul li a {
     color: white;
 }
 
-/* Botão de contato */
+
 .button-task {
-    background-color: #627a5d;  /* nova cor principal para o botão */
+    background-color: #627a5d; 
     border: none;
     color: white;
     padding: 5px 10px;
@@ -80,61 +79,65 @@ nav ul li a {
 }
 
 .button-task:hover {
-    background-color: #50664c;  /* tonalidade mais escura para o hover */
+    background-color: #50664c;  
     transform: scale(1.1);
 }
 
-/* Estilos restantes */
+
 .contente-main {
-    flex: 1; /* Ocupa o espaço disponível */
-    text-align: center; /* Centraliza o texto */
+    flex: 1;
+    text-align: center; 
 }
 
 main {
     display: flex;
-    justify-content: center; /* Centraliza os elementos horizontalmente */
-    align-items: center; /* Alinha os elementos verticalmente */
-    gap: 40px; /* Adiciona um espaço uniforme entre os elementos */
+    justify-content: center;
+    align-items: center; 
+    gap: 40px; 
     padding: 200px;
-    padding-top: 200px; /* ajuste conforme a altura do header */
-    box-shadow: 0 2px 4px rgba(98, 122, 93, 0.3); /* sombra atualizada */
+    padding-top: 200px; 
+    box-shadow: 0 2px 4px rgba(98, 122, 93, 0.3); 
     position: relative;
 }
 
 .img-main {
-    flex: 1; /* Ocupa o espaço disponível */
+    flex: 1; 
     display: flex;
-    justify-content: center; /* Centraliza a imagem */
+    justify-content: center; 
     position: relative;
     z-index: 1;
 }
 
 .img-main img {
-    max-width: 80%; /* Ajusta o tamanho da imagem */
-    height: auto; /* Mantém a proporção da imagem */
+    max-width: 80%; 
+    height: auto; 
 }
 
 .redes-sociais {
     position: absolute;
-    bottom: 10px; /* Distância do canto inferior */
-    left: 10px; /* Distância do canto esquerdo */
+    bottom: 10px; 
+    left: 10px; 
     display: flex;
-    gap: 15px; /* Aumenta o espaçamento entre os ícones */
-    padding: 10px; /* Adiciona um pouco de espaço interno */
-    font-size: 1.5rem; /* Aumenta o tamanho dos ícones */
+    gap: 15px; 
+    padding: 10px; 
+    font-size: 1.5rem; 
 }
 
 .social-button {
-    background: none; /* Remove o fundo padrão do botão */
-    border: none; /* Remove a borda padrão */
-    cursor: pointer; /* Mostra o cursor de clique */
-    font-size: 1.5rem; /* Ajusta o tamanho do ícone */
-    padding: 5px; /* Adiciona um pouco de espaço interno */
-    transition: transform 0.2s ease; /* Adiciona uma transição suave */
+    background: none; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 1.5rem; 
+    padding: 5px; 
+    transition: transform 0.2s ease; 
 }
 
 .social-button:hover {
-    transform: scale(1.2); /* Aumenta o botão ao passar o mouse */
+    transform: scale(1.2); 
+}
+
+#projects {
+    padding: 120px 0 200px 0; 
 }
 
 .nav-projects {
@@ -146,7 +149,7 @@ main {
 
 .project-item {
     text-align: center;
-    font-size: 15rem;
+    font-size: 10rem;
     color: #333;
     background: none;
     border: none;
@@ -156,8 +159,8 @@ main {
 }
 
 .project-item i {
-    font-size: 15rem;
-    color: #627a5d;  /* nova cor principal */
+    font-size: 10rem;
+    color: #627a5d; 
     margin-bottom: 10px;
 }
 
@@ -177,7 +180,7 @@ main {
 }
 
 .projects-description h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #333;
 }
 
@@ -208,33 +211,33 @@ main {
     padding: 20px;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column; /* Alinha os elementos verticalmente */
-    align-items: center; /* Centraliza os elementos horizontalmente */
-    justify-content: center; /* Centraliza os elementos verticalmente */
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
 }
 
 .training-item i {
-    font-size: 15rem;
-    color: #627a5d;  /* nova cor principal */
+    font-size: 10rem;
+    color: #627a5d;  
     margin-bottom: 10px;
 }
 
 .training-item p {
-    font-size: 1.5rem; /* Ajusta o tamanho do texto */
-    color: #333; /* Cor do texto */
-    margin: 5px 0; /* Espaçamento entre os parágrafos */
+    font-size: 1.0rem; 
+    color: #333; 
+    margin: 5px 0; 
 }
 
 .training-img {
-    width: 35rem;
-    height: 35rem;
+    width: 20rem;
+    height: 20rem;
     object-fit: contain;
     margin-bottom: 10px;
     display: block;
 }
 
 .nav-arrow {
-    background-color: #627a5d;  /* nova cor principal */
+    background-color: #627a5d;  
     color: white;
     border: none;
     cursor: pointer;
@@ -255,18 +258,18 @@ main {
 }
 
 .nav-arrow:hover {
-    background-color: #50664c;  /* tonalidade mais escura */
+    background-color: #50664c;  
 }
 
 .training-description{
-    text-align: center; /* Centraliza o texto horizontalmente */
-    margin: 0 auto; /* Centraliza o bloco horizontalmente */
-    max-width: 800px; /* Define uma largura máxima para o conteúdo */
+    text-align: center;
+    margin: 0 auto; 
+    max-width: 600px; 
 }
 
 .training-description h2 {
-    font-size: 2rem; /* Tamanho do título */
-    color: #333; /* Cor do título */
+    font-size: 1.5rem; 
+    color: #333; 
 }
 
 .training-description p {
@@ -275,7 +278,6 @@ main {
     margin-top: 10px;
 }
 
-/* Estilo para o rodapé */
 footer {
     width: 100%;
     background-color: #627a5d;
@@ -285,4 +287,51 @@ footer {
     font-size: 1.1rem;
     box-shadow: 0 -2px 4px rgba(98, 122, 93, 0.2);
     z-index: 999;
+}
+
+#training {
+    padding-top: 120px;
+}
+
+.portfolio-section {
+    max-width: 1200px;
+    text-align: center;
+}
+
+.projetos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.projeto-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden; 
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projeto-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.projeto-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.projeto-card h3 {
+    margin: 15px;
+}
+
+.projeto-card p {
+    margin: 0 15px 15px;
+    font-size: 0.9em;
+    line-height: 1.5;
 }
