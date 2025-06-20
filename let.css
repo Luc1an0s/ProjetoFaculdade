@@ -1,0 +1,117 @@
+/* Define a cor de fundo da página */
+body {
+    background-color: #965bcd;
+}
+
+/* Estiliza o cabeçalho (header) fixando-o no topo da página */
+header {
+    position: fixed;          /* Fixa o header na tela ao rolar */
+    top: 0;                   /* Posicionado no topo */
+    left: 0;                  /* Alinhado à esquerda */
+    width: 100%;              /* Ocupa toda a largura da tela */
+    z-index: 1000;            /* Mantém o header acima de outros elementos */
+    display: flex;            /* Usa flexbox para alinhar os itens */
+    align-items: center;      /* Alinha verticalmente os itens ao centro */
+    height: 80px;             /* Altura do cabeçalho */
+}
+
+/* Estiliza o nome exibido no header */
+.nome {
+    position: absolute;       /* Posicionamento absoluto dentro do header */
+    left: 20px;               /* Distância da borda esquerda */
+    top: 50%;                 /* Verticalmente centralizado */
+    transform: translateY(-50%); /* Ajusta para centralizar exatamente */
+    color: #fff;              /* Cor branca no texto */
+}
+
+/* Centraliza o nav horizontalmente no header */
+nav {
+    margin: 0 auto;
+}
+
+/* Estiliza a lista de navegação */
+nav ul {
+    display: flex;            /* Usa flexbox para alinhar os itens em linha */
+    gap: 30px;                /* Espaçamento entre os itens */
+    list-style: none;         /* Remove os marcadores da lista */
+    padding: 0;
+    margin: 0;
+}
+
+/* Estiliza os links dentro da navegação */
+nav ul li a {
+    text-decoration: none;    /* Remove sublinhado padrão */
+    color: #fff;              /* Cor branca */
+    text-transform: .2s ;     /* Provavelmente um erro: essa propriedade não faz sentido aqui */
+}
+
+/* Efeito ao passar o mouse nos links */
+nav ul li a:hover {
+    color: #e4e4e4;           /* Muda para um branco acinzentado */
+    text-decoration: underline; /* Adiciona sublinhado */
+}
+
+/* Área principal do conteúdo da página */
+.main-content {
+    display: flex;            /* Usa flexbox para organização dos elementos */
+    align-items: flex-start;  /* Alinha os itens ao topo */
+    gap: 40px;                /* Espaço entre os elementos */
+    margin-top: 160px;        /* Espaço superior para compensar o header */
+    padding: 0 40px;          /* Espaçamento horizontal interno */
+    color: #fff;              /* Cor do texto branca */
+    position: relative;
+    justify-content: center; /* Centraliza horizontalmente o conteúdo */
+    max-width: 1100px;        /* Limita a largura máxima */
+    margin-left: auto;        /* Centraliza horizontalmente */
+    margin-right: auto;
+}
+
+/* Seção do texto principal */
+.content-main {
+    display: flex;
+    flex-direction: column;   /* Organiza os itens verticalmente */
+    justify-content: flex-start;
+    margin-top: 200px;        /* Espaço extra acima do conteúdo */
+}
+
+/* Container da imagem */
+.foto {
+    display: flex;
+    justify-content: center;  /* Centraliza horizontalmente a imagem */
+    align-items: center;      /* Centraliza verticalmente (se necessário) */
+}
+
+/* Estilo da imagem */
+.foto img {
+    width: 600px;             /* Define largura da imagem */
+    height: auto;             /* Mantém proporção original */
+    max-width: 100%;          /* Não ultrapassa a largura do contêiner */
+    display: block;           /* Remove espaçamento indesejado */
+}
+
+/* Botão com estilo gradiente */
+.botao-resumo {
+    background: linear-gradient(90deg, #e4e4e4 0%, #4a70aa 100%); /* Gradiente de cinza claro ao azul */
+    color: black;             /* Cor do texto */
+    border: none;             /* Remove borda padrão */
+    border-radius: 25px;      /* Bordas arredondadas */
+    padding: 12px 32px;       /* Espaçamento interno do botão */
+    font-size: 1.1rem;        /* Tamanho da fonte */
+    font-weight: bold;        /* Negrito */
+    box-shadow: 0 4px 16px rgba(74, 112, 170, 0.2); /* Sombra suave */
+    cursor: pointer;          /* Cursor em formato de mão */
+    transition: background 0.3s, transform 0.2s; /* Transições suaves */
+}
+
+/* Efeito hover no botão */
+.botao-resumo:hover {
+    background: linear-gradient(90deg, #4a70aa 0%, #6a9cf7 100%); /* Novo gradiente ao passar o mouse */
+    transform: scale(1.05);   /* Aumenta levemente o tamanho */
+}
+
+/* Container do botão, controla posicionamento */
+.button {
+    margin-top: 20px;         /* Espaço acima do botão */
+    margin-left: 0;
+    align-self: flex-start;   /* Alinha o botão à esquerda do contêiner pai */
+}
