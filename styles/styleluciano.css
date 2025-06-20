@@ -293,3 +293,51 @@ footer {
 #training {
     padding-top: 120px;
 }
+
+.portfolio-section {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* A grade de projetos */
+.projetos-grid {
+    display: grid;
+    /* Cria 3 colunas em telas grandes, 2 em médias e 1 em pequenas */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px; /* Espaçamento entre os cartões */
+    margin-top: 40px;
+}
+
+/* Estilo de cada cartão de projeto */
+.projeto-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden; /* Garante que a imagem não saia do cartão arredondado */
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projeto-card:hover {
+    transform: translateY(-5px); /* Efeito de flutuar ao passar o mouse */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.projeto-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Faz a imagem cobrir o espaço sem distorcer */
+}
+
+.projeto-card h3 {
+    margin: 15px;
+}
+
+.projeto-card p {
+    margin: 0 15px 15px;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
