@@ -136,6 +136,10 @@ main {
     transform: scale(1.2); 
 }
 
+#projects {
+    padding: 120px 0 200px 0; 
+}
+
 .nav-projects {
     display: flex;
     justify-content: space-around;
@@ -145,7 +149,7 @@ main {
 
 .project-item {
     text-align: center;
-    font-size: 15rem;
+    font-size: 10rem;
     color: #333;
     background: none;
     border: none;
@@ -155,7 +159,7 @@ main {
 }
 
 .project-item i {
-    font-size: 15rem;
+    font-size: 10rem;
     color: #627a5d; 
     margin-bottom: 10px;
 }
@@ -176,7 +180,7 @@ main {
 }
 
 .projects-description h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #333;
 }
 
@@ -213,20 +217,20 @@ main {
 }
 
 .training-item i {
-    font-size: 15rem;
+    font-size: 10rem;
     color: #627a5d;  
     margin-bottom: 10px;
 }
 
 .training-item p {
-    font-size: 1.5rem; 
+    font-size: 1.0rem; 
     color: #333; 
     margin: 5px 0; 
 }
 
 .training-img {
-    width: 35rem;
-    height: 35rem;
+    width: 20rem;
+    height: 20rem;
     object-fit: contain;
     margin-bottom: 10px;
     display: block;
@@ -260,11 +264,11 @@ main {
 .training-description{
     text-align: center;
     margin: 0 auto; 
-    max-width: 800px; 
+    max-width: 600px; 
 }
 
 .training-description h2 {
-    font-size: 2rem; 
+    font-size: 1.5rem; 
     color: #333; 
 }
 
@@ -284,4 +288,8 @@ footer {
     font-size: 1.1rem;
     box-shadow: 0 -2px 4px rgba(98, 122, 93, 0.2);
     z-index: 999;
+}
+
+#training {
+    padding-top: 120px;
 }
